@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>여기에는 문서의 제목을 입력해주세요</title>
+    </head>
+    <body>
+        <h1>글자를 입력해 보세요!</h1>
+        <form action="{%url 'result'%}" method="post">
+            {%csrf_token%}
+            <textarea name="text" cols="30" rows="10"></textarea>
+            <br />
+            <input type="submit" value="제출" />
+        </form>
+    </body>
+</html>
