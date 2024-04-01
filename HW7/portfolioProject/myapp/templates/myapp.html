@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {%load static%} <link rel="stylesheet" type"text/css" href="{%static 'myapp.css'%}"/>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="borderline"></div>
+        <div class="container">
+            <div class="menu">
+                <p>Info</p>
+                <span><a href="http://127.0.0.1:8000/project" style="color: #808080">Project</a></span>
+                <span>contact</span>
+            </div>
+
+            <div class="mainintro">
+                <div class="designer">
+                    <span>UI UX Designer</span>
+                    <span>Graphic Designer</span>
+                    <span>Product Designer</span>
+                </div>
+                <div class="name">
+                    <span>SUBIN KIM</span>
+                    <img src="{% static '/imagefolder/namegraphic.png' %}" />
+                </div>
+
+                <div class="introduce">
+                    <span>Hello, I'm Subin Kim</span>
+                    <p>
+                        Currently, I am interested in the UX field and focusing on developing my potential through
+                        various activites
+                    </p>
+                </div>
+
+                <div class="contents">
+                    <div class="fir">
+                        <img src="{% static '/imagefolder/group 6.png' %}" />
+                        <p class="title">Growing Together</p>
+                        <span class="text">I aim for a life that grows together</span>
+                        <span class="text">and is stimulated together</span>
+                    </div>
+                    <div class="sec">
+                        <img src="{% static '/imagefolder/group 4.png' %}" />
+                        <p class="title">Finding Answer</p>
+                        <span class="text">Currently, I am in the process of finding</span>
+                        <span class="text">the answer of the question I asked</span>
+                    </div>
+                    <div class="thir">
+                        <img src="{% static '/imagefolder/group 3.png' %}" />
+                        <p class="title">Sharing Insights</p>
+                        <span class="text">Reflecting on myself with other people's</span>
+                        <span class="text">thoughts and insights</span>
+                    </div>
+                    <div class="four">
+                        <img src="{% static '/imagefolder/group 2.png' %}" />
+                        <p class="title">Approaching Next</p>
+                        <span class="text"> Getting closer to the direction</span>
+                        <span class="text">I'm on my way to my next destination</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

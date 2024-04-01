@@ -1,0 +1,55 @@
+body {
+    background-color: #131313;
+}
+
+.container {
+    font-family: helvetica;
+    margin: 0 126px;
+}
+
+.menu {
+    margin-top: 40px;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    color: #808080;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.borderline {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    border-bottom: 1px solid #252525;
+    margin-top: 30px;
+}
+.menu p {
+    font-weight: 600;
+    color: #ff7c03;
+}
+.projectContent1 {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+.projectContent2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 150px;
+}
+.projectContent1 img {
+    height: 300px;
+}
+
+.projectContent2 img {
+    width: 200px;
+}
+.fir,
+.sec,
+.thir,
+.four {
+    display: flex;
+    align-items: center;
+}
