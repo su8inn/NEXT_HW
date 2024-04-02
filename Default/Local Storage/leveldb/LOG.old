@@ -1,0 +1,6 @@
+2024/04/03-03:01:43.685 2e03 Reusing MANIFEST /Users/kimsubin/Desktop/NEXT/subin github/NEXT_HW/HW6/Default/Local Storage/leveldb/MANIFEST-000001
+2024/04/03-03:01:43.686 2e03 Recovering log #6
+2024/04/03-03:01:43.687 2e03 Reusing old log /Users/kimsubin/Desktop/NEXT/subin github/NEXT_HW/HW6/Default/Local Storage/leveldb/000006.log 
+2024/04/03-03:01:51.852 5003 Level-0 table #10: started
+2024/04/03-03:01:51.894 5003 Level-0 table #10: 16156 bytes OK
+2024/04/03-03:01:52.004 5003 Delete type=0 #6
