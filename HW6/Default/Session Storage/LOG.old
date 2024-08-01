@@ -1,0 +1,8 @@
+2024/04/03-03:01:43.825 2e03 Reusing MANIFEST /Users/kimsubin/Desktop/NEXT/subin github/NEXT_HW/HW6/Default/Session Storage/MANIFEST-000001
+2024/04/03-03:01:43.826 2e03 Recovering log #75
+2024/04/03-03:01:43.830 2e03 Level-0 table #78: started
+2024/04/03-03:01:43.871 2e03 Level-0 table #78: 181547 bytes OK
+2024/04/03-03:01:43.871 2e03 Recovering log #77
+2024/04/03-03:01:43.872 2e03 Reusing old log /Users/kimsubin/Desktop/NEXT/subin github/NEXT_HW/HW6/Default/Session Storage/000077.log 
+2024/04/03-03:01:43.911 2e03 Delete type=0 #75
+2024/04/03-03:01:51.895 3a07 Level-0 table #80: started

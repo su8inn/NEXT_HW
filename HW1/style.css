@@ -1,0 +1,49 @@
+body {
+    background-color: #282828;
+}
+a:visited {
+    color: #222;
+}
+mark {
+    color: #ffffff;
+    background: #1e6af7;
+}
+li {
+    color: rgba(255, 255, 255, 1);
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 88%;
+    color: white;
+    /* background-color: aliceblue; */
+    margin: 0 auto;
+    border: 4px dotted #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contentWrapper {
+    max-width: 430px;
+
+    margin: 0 auto;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+b {
+    color: #f7941e;
+}
+h3 {
+    text-align: center;
+}
+.noDot {
+    list-style: none;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

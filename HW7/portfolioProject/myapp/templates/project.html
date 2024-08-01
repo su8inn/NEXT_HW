@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {%load static%} <link rel="stylesheet" type"text/css" href="{%static 'project.css'%}"/>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="borderline"></div>
+        <div class="container">
+            <div class="menu">
+                <span>Info</span>
+                <p>Project</p>
+                <span>contact</span>
+            </div>
+            <div class="projectContent1">
+                <div class="fir">
+                    <img src="{% static '/imagefolder/6.png' %}" />
+                </div>
+                <div class="sec">
+                    <img src="{% static '/imagefolder/1.png' %}" />
+                </div>
+                <div class="thir">
+                    <img src="{% static '/imagefolder/2.png' %}" />
+                </div>
+                <div class="four">
+                    <img src="{% static '/imagefolder/3.png' %}" />
+                </div>
+            </div>
+            <div class="projectContent2">
+                <div class="fir">
+                    <img src="{% static '/imagefolder/4.png' %}" />
+                </div>
+                <div class="sec">
+                    <img src="{% static '/imagefolder/5.png' %}" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
