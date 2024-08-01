@@ -24,7 +24,7 @@ def list(request):
 def category_posts(request, category_id):
     category = get_object_or_404(Category, id=category_id)
     articles = category.articles.all()
-    return render(request, 'category_posts.html', {'category': category, 'articles': articles})
+    return render(request, 'category.html', {'category': category, 'articles': articles})
 
 def detail(request, article_id):
     article = get_object_or_404(Article, id=article_id)
